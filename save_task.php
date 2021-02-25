@@ -16,6 +16,11 @@ if(isset($_POST['save_task'])){
         die("Query failed");
     }
 
-    echo "guardado";
+    //almacenar mensaje y color
+    $_SESSION['message'] = 'Task Saved Seuccesfully';
+    $_SESSION['message_type'] = "success";
+
+    //redireccionar
+    header("location: index.php");
 }
 ?>
