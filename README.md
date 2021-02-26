@@ -1,7 +1,7 @@
 # Screenshot
 
 # Pagina principal
-![](docs/index.png)
+![](docs/index.jpg)
 
 # Formulario para editar
 ![](docs/edit.png)
